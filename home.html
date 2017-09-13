@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Shuhao</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/aboutme.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/aboutme-middle.css">
+    <link rel="stylesheet" href="css/navBar.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-default bg-inverse">
+        <div class="container navbar-group">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand michael" href="/">Michael</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="{% if active['report'] %}active{% endif %}"><a id="resume-top" href="/summary">Resume<span class="hide fa fa-arrow-up report-tips"></a></li>
+                    <li class="{% if active['add'] %}active{% endif %}"><a id="project-top" href="/home">Project<span class="hide fa fa-arrow-up add-tips"></span></a></li>
+                    <li class="{% if active['reset'] %}active{% endif %}"><a id="contact-top" href="/home">Contact Me<span class="hide fa fa-arrow-up reset-tips"></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- <div class="top">
+        <div class="left">
+            <h3 id="michael">Michael Chen</h3>
+        </div>
+        <div class="right">
+            <li class="aboutme">
+                <ul>
+                    <li id="aboutme"><a href="#">Resume</a></li>
+                </ul>
+            </li>
+            <li class='testimonies'>
+                <ul>
+                    <li id="testimonies"> <a href="#">tools</a></li>
+                </ul>
+            </li>
+
+            <li id="games"><a href="#">Games</a>
+                <div class="games-dropdown">
+                    <ul>
+                        <li>Sudoku</li>
+                        <li>Fabi-Bird</li>
+                        <li>Super Mario</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="contact">
+                <ul>
+                    <li id="contact"><a href="#">Contact me</a></li>
+                </ul>
+            </li>
+        </div>
+    </div>  -->
+
+    <div class="homepage-img"></div>
+    <div class="middle">
+        <h2 id="my-resume"> about me</h2>
+    </div>
+    <div class="passage">
+        <li>
+            Featured as a NYC Change Maker by Conscious Magazine in February 2016, Pinky's passion for people and strong understanding of the importance of investing in genuine human relationships evidently shines through every action she takes and decision she makes.
+            Today, Pinky serves as the Operations Associate at DataKind, which was named one of Fast Company's Most Innovative nonprofit organization in 2017. DataKind harnesses the power of data science in the service of humanity. She is also one of
+            the co-founders of asha bridal box, offering timeless pieces made by survivors of sex trafficking in Nepal. We provide restoration through giving sewing work to these brilliant powerful women.
+        </li>
+        <li>
+            Pinky came from leading numerous outreach campaigns, creative fundraising events through social media, and unconventional social justice movements towards the anti human trafficking cause for organizations like International Justice Mission, Dressember
+            Foundation, Restore NYC, A21, and LOVE146 to managing projects involving improvement of outreach methods for NYC at-risk families of becoming homeless, classification of deaths in the Syrian Crisis as collateral damage or a targeted events,
+            and analysis of educational impact of writing poetry in high school communities with the data technology startup, SumAll.org. She derives her energy from creative entrepreneurial and fast-paced environments.
+        </li>
+        <li>
+            Connecting the talents of people in her network for pushing goals towards positive social change is one of her favorite activities. She believes that there are multiple solutions to many of today's problems, we just have to be aware of all the possibilities.
+        </li>
+    </div>
+
+    <div class="aboutme-middle">
+        <div class="aboutme-middle-left">
+            <div class="aboutme-middle-left-img">
+                <img src="img/789.jpeg" alt="">
+            </div>
+            <div class="aboutme-middle-left-content">
+                <h3>A21 WALK FOR FREEDOM | 2015</h3>
+                <p>Using social media (#a21queens) and word of mouth, I led and gathered 36 individuals in global walk to raise awareness of human trafficking, raising $965 towards ending the injustice (Snacks and drink were sponsored by Health Warrior and
+                    Target).
+                </p>
+            </div>
+        </div>
+        <div class="aboutme-middle-middle">
+            <div class="aboutme-middle-middle-img">
+                <img src="img/test.jpg" alt="">
+            </div>
+            <div class="aboutme-middle-middle-content">
+                <h3>DRESSEMBER FOUNDATION & INTERNATIONAL JUSTICE MISSION | 2013-2015
+                </h3>
+                <p>With the clothes I owned, I photographed, styled, and modeled 31 outfits that included one dress each to raise $1,270+ on social media (#pinkyindresses)  against exploitation of women and awareness of human trafficking.  Wearing dresses in NYC December weather is not as easy as wearing dresses in LA December.can affect any person in one's life and wrote storyboard for a collaborative video short to raise awareness of modern day slavery.
+                </p>..
+
+                </p>
+            </div>
+        </div>
+        <div class="aboutme-middle-right">
+            <div class="aboutme-middle-right-img">
+                <img src="img/456.jpeg" alt="">
+            </div>
+            <div class="aboutme-middle-right-content">
+                <h3>LOVE OUT LOUD @ STONY BROOK UNIVERSITY INTERVARSITY CHRISTIAN FELLOWSHIP | 2012
+                </h3>
+                <p>Led several outreach events through art installations of human-sized cages capturing the reality that human trafficking
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="row">
+            <div class="col-xs-12 text-center social">
+                <a href="#">
+                    <span  class="fa fa-facebook">
+
+                    </span>
+                </a>
+                <a href="#" target="_blank">
+    					<span class="fa fa-twitter"></span>
+    				</a>
+                <a href="#" target="_blank">
+    					<span class="fa fa-linkedin"></span>
+    				</a>
+                <a href="#" target="_blank">
+    					<span class="fa fa-stack-overflow"></span>
+    				</a>
+                <a href="#" target="_blank">
+    					<span class="fa fa-github"></span>
+    				</a>
+            </div>
+        </div>
+        <h4 id="createby">Created by Michael Chen
+        </h4>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src='js/master.js'></script>
+</body>
+
+</html>

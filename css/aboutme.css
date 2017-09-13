@@ -1,0 +1,18 @@
+.passage {
+    font-family: 'Droid Sans';
+}
+
+.passage {
+    margin: 30px 150px 30px 150px;
+}
+
+.passage li {
+    margin: 30px;
+}
+
+.homepage-img {
+    background: url(../img/123.jpeg) center center no-repeat fixed;
+    background-size: cover;
+    height: 820px;
+    margin-top: -26px;
+}

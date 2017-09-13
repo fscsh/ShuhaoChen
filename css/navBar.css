@@ -1,0 +1,14 @@
+/*优先级太高了，怎么调*/
+
+#resume-top:hover {
+    color: brown !important;
+}
+
+#project-top {
+    color: brown !important;
+}
+
+
+/*.bg-inverse{
+    background-color: #292b2c!important;
+}*/

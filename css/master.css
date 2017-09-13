@@ -1,0 +1,143 @@
+body{
+    background-color: #eee !important;
+    font-family: 'Droid Sans' !important;
+}
+
+
+body {
+    margin: 0;
+}
+
+/*.michael{
+        margin-left: -79px !important;
+}*/
+.top {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    margin: 0 35 0 20;
+}
+
+.left {
+    color: white;
+    padding: 0 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    margin-right: 10px;
+}
+
+
+.right ul {
+    padding: 0;
+}
+
+.right li ul li a {
+    text-decoration: none;
+    position: relative;
+}
+
+.right li{
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle{
+        width: 130px !important;
+}
+#aboutme{
+        padding: 0;
+}
+#aboutme a:hover {
+    font: sans-serif;
+    cursor: pointer;
+    color: grey;
+    transition: all 0.6s;
+    text-decoration: overline;
+}
+
+#aboutme a {
+    font: sans-serif;
+    color: white;
+    transition: all 0.8s;
+}
+
+#testimonies a:hover {
+    cursor: pointer;
+    color: grey;
+    transition: all 0.6s;
+    text-decoration: overline;
+}
+
+#testimonies a {
+    color: white;
+    transition: all 0.8s;
+}
+
+#games a:hover {
+    cursor: pointer;
+    color: grey;
+    transition: all 0.6s;
+    text-decoration: overline;
+}
+
+#games a {
+    color: white;
+    transition: all 0.8s;
+    text-decoration: none;
+}
+.games-dropdown ul{
+    background-color: rgba(0, 0, 21, 0.2);
+    position: absolute;
+    margin-left: -63px;
+    margin-top: 22px;
+    padding: 0;
+    transition: 0.6s;
+}
+.games-dropdown{
+    display: none;
+}
+.games-dropdown li{
+    color: white;
+    margin: 5px 0 5px 0;
+    justify-content: flex-start;
+    padding: 6px;
+
+}
+
+#contact a:hover {
+    cursor: pointer;
+    color: grey;
+    transition: all 0.6s;
+    text-decoration: overline;
+}
+
+#contact a {
+    color: white;
+    transition: all 0.8s;
+}
+
+#my-resume {
+    color: rgba(0, 0, 0, 0.6);
+    /*justify-content: center;*/
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 20px;
+}
+
+/*.img {
+    max-width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}*/
+
+.middle {
+    width: 120px;
+    margin: 0 auto;
+}

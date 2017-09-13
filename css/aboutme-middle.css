@@ -1,0 +1,90 @@
+.aboutme-middle {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.aboutme-middle div{
+    margin: 0 auto;
+    width: 300px;
+}
+
+.aboutme-middle div p{
+    text-align: left;
+}
+
+
+.aboutme-middle-middle{
+    margin-left: 80px;
+}
+.aboutme-middle-left{
+    margin-left: 80px;
+}
+.aboutme-middle-right{
+    margin-left: 80px;
+}
+.aboutme-middle-left img {
+    margin: 10px;
+    width: 200px;
+    margin: 0 10px 10px 10px;
+}
+
+.aboutme-middle-middle img {
+    width: 280px;
+    margin: 0 10px 10px 10px;
+}
+
+.aboutme-middle-right img {
+    width: 200px;
+    margin: 0 10px 10px 10px;
+}
+.aboutme-middle-left-content{
+    width: 200px;
+}
+.aboutme-middle-middle-content{
+    width: 280px;
+}
+.aboutme-middle-right-content{
+    width: 200px;
+}
+.aboutme-middle-left-content h3{
+    margin-top: 0;
+}
+.aboutme-middle-middle-content h3{
+    margin-top: 0;
+}
+.aboutme-middle-right-content h3{
+    margin-top: 0;
+}
+.aboutme-middle-left-content p {
+    font-size: 16px;
+    line-height: 1.6em;
+    letter-spacing: 0px;
+    font-weight: 500;
+
+    justify-content: center;
+}
+
+.aboutme-middle-middle-content p {
+    font-size: 16px;
+    line-height: 1.6em;
+    letter-spacing: 0px;
+    font-weight: 500;
+
+    justify-content: center;
+}
+
+.aboutme-middle-right-content p {
+    font-size: 16px;
+    line-height: 1.6em;
+    letter-spacing: 0px;
+    font-weight: 500;
+
+    justify-content: center;
+}
+.passage{
+    border-bottom: ridge;
+/* border-bottom-width: medium; */
+border-bottom-width: 4px;
+}

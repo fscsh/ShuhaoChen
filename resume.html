@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Shuhao-Resume</title>
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/master.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/middle.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+    <body>
+
+    <nav class="navbar navbar-default bg-primary">
+        <div class="container navbar-group">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Michael</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="{% if active['report'] %}active{% endif %} resume"><a id="report" href="/summary">Resume<span class="hide fa fa-arrow-up report-tips"></a></li>
+                    <li class="{% if active['add'] %}active{% endif %} project"><a id="add" href="/home">Project<span class="hide fa fa-arrow-up add-tips"></span></a></li>
+                    <li class="{% if active['reset'] %}active{% endif %} contact-me"><a id="reset" href="/home">Contact Me<span class="hide fa fa-arrow-up reset-tips"></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<div class="middle">
+    <h3 id="my-resume">
+        My Resume
+    </h3>
+    <span>
+    <div class="downlode-top">
+
+        <a href="#">Downlode</a>
+    </div>
+    </span>
+    <div class="resume-img">
+        <img src="img/resume-0.png">
+        <img src="img/resume-1.png" >
+    </div>
+
+</div>
+
+
+
+
+
+<footer class="footer">
+    <div class="row">
+        <div class="col-xs-12 text-center social">
+            <a href="#" target="_blank">
+                    <span class="fa fa-facebook"></span>
+                </a>
+            <a href="#" target="_blank">
+                    <span class="fa fa-twitter"></span>
+                </a>
+            <a href="#" target="_blank">
+                    <span class="fa fa-linkedin"></span>
+                </a>
+            <a href="#" target="_blank">
+                    <span class="fa fa-stack-overflow"></span>
+                </a>
+            <a href="#" target="_blank">
+                    <span class="fa fa-github"></span>
+                </a>
+        </div>
+
+    </div>
+
+    <h4 id="createby">Created by Michael Chen
+    </h4>
+
+</footer>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script type="text/javascript" src='js/master.js'></script>
+    </body>
+</html>

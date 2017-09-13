@@ -1,0 +1,38 @@
+.middle {
+    font-family: 'Droid Sans';
+    width: 150px;
+}
+
+#my-resume {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume-img img {
+    width: 600px;
+    margin-left: -228px;
+}
+
+.downlode-top {
+    font-family: 'Droid Sans';
+    background-color: #93E1D8;
+    border: none;
+    display: block;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 54px;
+    padding: 7px;
+    position: absolute;
+    left: -280px;
+    bottom: 1389px;
+}
+
+.downlode-top a {
+    margin-left: 2px;
+}
+
+.middle {
+    position: relative;
+}
